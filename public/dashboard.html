@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AutoFix - Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="topo">
+
+        <div class="marca">
+            🔧 AutoFix
+        </div>
+
+        <div class="usuario-topo">
+            Olá, <strong id="nomeUsuario">...</strong>
+
+            <button
+                onclick="logout()"
+                class="btn-logout">
+                Sair
+            </button>
+        </div>
+
+    </header>
+
+    <main class="container">
+
+        <div class="titulo">
+
+            <h1>Dashboard</h1>
+
+            <p>
+                Sistema de gerenciamento da oficina
+            </p>
+
+        </div>
+
+        <div class="cards">
+
+            <a href="clientes.html" class="card">
+
+                <div class="card-icon">
+                    👤
+                </div>
+
+                <h2>Clientes</h2>
+
+                <p>
+                    Gerenciar clientes cadastrados
+                </p>
+
+            </a>
+
+            <a href="veiculos.html" class="card">
+
+                <div class="card-icon">
+                    🚗
+                </div>
+
+                <h2>Veículos</h2>
+
+                <p>
+                    Gerenciar veículos
+                </p>
+
+            </a>
+
+            <a href="ordens.html" class="card">
+
+                <div class="card-icon">
+                    🔧
+                </div>
+
+                <h2>Ordens de Serviço</h2>
+
+                <p>
+                    Gerenciar serviços da oficina
+                </p>
+
+            </a>
+
+        </div>
+
+    </main>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
