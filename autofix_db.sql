@@ -73,7 +73,7 @@ VALUES
 (
     'Administrador',
     'admin',
-    '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy'
+    '$2a$10$5R8fuJP685SsPLmsugUtpO.Ak9eYeUH6MNZeFr8i6nM0r/r.V8xjG'
 );
 
 -- Clientes de teste
